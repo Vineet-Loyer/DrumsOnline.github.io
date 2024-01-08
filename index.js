@@ -16,25 +16,25 @@ buttonAnimation(event.key);
 
 function sound(key){
 switch(key){
-        case "w":var tom1=new Audio("/Project-DrumKit/Drum Kit Starting Files/sounds/tom-1.mp3");
+        case "w":var tom1=new Audio("/sounds/tom-1.mp3");
                 tom1.play();
                 break;
-        case "a":var tom2=new Audio("/Project-DrumKit/Drum Kit Starting Files/sounds/tom-2.mp3");
+        case "a":var tom2=new Audio("/sounds/tom-2.mp3");
                 tom2.play();
                 break;
-        case "s":var tom3=new Audio("/Project-DrumKit/Drum Kit Starting Files/sounds/tom-3.mp3");
+        case "s":var tom3=new Audio("/sounds/tom-3.mp3");
                 tom3.play();
                 break;
-        case "d":var tom4=new Audio("/Project-DrumKit/Drum Kit Starting Files/sounds/tom-4.mp3");
+        case "d":var tom4=new Audio("/sounds/tom-4.mp3");
                 tom4.play();
                 break;
-        case "j":var snare=new Audio("/Project-DrumKit/Drum Kit Starting Files/sounds/snare.mp3");
+        case "j":var snare=new Audio("/sounds/snare.mp3");
                 snare.play();
                 break;
-        case "k":var crash=new Audio("/Project-DrumKit/Drum Kit Starting Files/sounds/crash.mp3");
+        case "k":var crash=new Audio("/sounds/crash.mp3");
                 crash.play();
                 break;
-        case "l":var kick_bass=new Audio("/Project-DrumKit/Drum Kit Starting Files/sounds/kick-bass.mp3");
+        case "l":var kick_bass=new Audio("/sounds/kick-bass.mp3");
                 kick_bass.play();
                 break;
 }
